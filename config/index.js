@@ -51,7 +51,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     // with repo name:
-    assetsPublicPath: process.env.NODE_ENV === 'production' ? '/playground/' : '/',
+    assetsPublicPath: '/playground/',
 
     /**
      * Source Maps
