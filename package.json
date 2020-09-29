@@ -7,16 +7,16 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start_dev": "npm run dev",
-	"start": "node server2.js",
+    "start": "node server2.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build_old": "node build/build.js",
-	"build": "node build.js"
+    "build": "node build.js"
   },
   "dependencies": {
-	"mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
