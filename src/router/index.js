@@ -30,10 +30,12 @@ const routes = [
   }
 ]
 
+console.log(process.env)
+
 console.log('router' + process.env)
 
 export default new Router({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/playground/',
   routes
 })
