@@ -1,7 +1,10 @@
 <template>
   <div>
-    <h1>This is landing page</h1>
+    <h1>This is Playground</h1>
     <img src="../assets/logo.png" class="tmp">
+    <br />
+    <a href="/content">Table of content</a>
+    <a href="/login">Login page</a>
   </div>
 </template>
 
@@ -13,6 +16,6 @@ export default {
 
 <style>
 .tmp {
-  width: 30em
+  width: 25em
 }
 </style>
