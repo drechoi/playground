@@ -30,7 +30,7 @@ const routes = [
   }
 ]
 
-console.log('router' + process.env.BASE_URL)
+console.log('router' + process.env)
 
 export default new Router({
   mode: 'history',
