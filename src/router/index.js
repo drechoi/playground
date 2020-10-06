@@ -35,7 +35,7 @@ console.log(process.env)
 console.log('router' + process.env)
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   base: '/playground/',
   routes
 })
