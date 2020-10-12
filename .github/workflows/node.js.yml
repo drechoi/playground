@@ -30,6 +30,9 @@ jobs:
         NODE_FIREBASE_CONFIG: ${{secrets.FIREBASE_CONFIG}}
     - run: npm ci
     - run: npm run build --if-present
+      env:
+        dummy: "'/playground/'"
+        NODE_FIREBASE_CONFIG: ${{secrets.FIREBASE_CONFIG}}
     - run: npm test
 
     - name: Deploy
