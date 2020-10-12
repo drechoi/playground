@@ -35,5 +35,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
       env:
-        dummy: "'/playground/'",
+        dummy: "'/playground/'"
         NODE_FIREBASE_CONFIG: ${{secrets.FIREBASE_CONFIG}}
