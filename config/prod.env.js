@@ -1,6 +1,6 @@
 'use strict'
 
-console.log('prod env js')
+console.log('----------------prod env js------------------')
 console.log(process.env)
 
 module.exports = {
@@ -9,5 +9,5 @@ module.exports = {
   NODE_BASE_URL: process.env.dummy,
   VUE_APP_FIREBASE_CONFIG: process.env.NODE_FIREBASE_CONFIG,
   NODE_FIREBASE_CONFIG: process.env.NODE_FIREBASE_CONFIG,
-  NODE_FIREBASE_CONFIG2: 'node_firebaase_config_dummy'
+  NODE_FIREBASE_CONFIG2: '"node_firebaase_config_dummy"'
 }

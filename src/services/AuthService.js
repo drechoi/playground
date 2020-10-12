@@ -2,7 +2,7 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 
 const initService = () => {
-  console.log('Debug- initService')
+  console.log('=========================Debug- initService=========================')
   console.log(process.env)
   console.log(process.env.NODE_ENV)
 
@@ -10,7 +10,7 @@ const initService = () => {
   console.log(process.env.NODE_FIREBASE_CONFIG)
   console.log(process.env.VUE_APP_FIREBASE_CONFIG)
   console.log(process.env.NODE_BASE_URL)
-
+  console.log('==================================================')
   // for non-prod, config will load from file
   // for prod, config will load directly from env property
   const config = (process.env.NODE_ENV === 'production') ? process.env.VUE_APP_FIREBASE_CONFIG : require(process.env.VUE_APP_FIREBASE_CONFIG)
